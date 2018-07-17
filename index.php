@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <?php include_once('components/navbar.html') ?>
+    <?php include_once('components/navbar.php') ?>
     <div class="container" id="main-wrapper"> 
         <?php 
             include_once('components/home-slide.html');

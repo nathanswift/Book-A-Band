@@ -19,15 +19,12 @@
           Genres
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Rock</a>
-          <a class="dropdown-item" href="#">Experimental</a>
-          <a class="dropdown-item" href="#">EDM</a>
-          <a class="dropdown-item" href="#">Hip-Hop</a>
-          <a class="dropdown-item" href="#">Pop</a>
-          <a class="dropdown-item" href="#">Indie</a>
-          <a class="dropdown-item" href="#">Classical</a>
-          <a class="dropdown-item" href="#">Jazz</a>
-          <a class="dropdown-item" href="#">Country</a>
+          <?php
+            include_once('etc/genres.php');
+            foreach($genres as $key=>$value):
+          ?>
+          <a class="dropdown-item" href="#"><?php echo $value; ?></a>
+          <?php endforeach; ?>
         </div>
       </li>
     </ul>
