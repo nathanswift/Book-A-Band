@@ -5,3 +5,13 @@ div#browse-form {
 div#browse-form div button {
     width: 100%;
 }
+
+div.browse-results {
+    margin-top: 25px;
+}
+
+div.browse-results div span {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}

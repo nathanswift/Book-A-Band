@@ -10,6 +10,7 @@
     <div class="container" id="browse-wrapper"> 
         <?php 
             include_once('components/browse-form.php');
+            include_once('components/browse-results.php');
             include_once('components/footer.html');
         ?>
     </div>
