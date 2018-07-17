@@ -1,0 +1,7 @@
+div#browse-form {
+    margin-top: 50px;
+}
+
+div#browse-form div button {
+    width: 100%;
+}
