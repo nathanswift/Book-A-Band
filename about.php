@@ -7,7 +7,8 @@
 <body>
     <?php include_once('components/navbar.php') ?>
     <div class="container" id="about-wrapper"> 
-        <?php 
+        <?php        
+            include_once('components/about.html');
             include_once('components/footer.html');
         ?>
     </div>
