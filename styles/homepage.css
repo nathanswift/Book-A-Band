@@ -1,0 +1,40 @@
+div#main-wrapper {
+    padding: 0px;
+}
+
+div#home-slide {
+    margin-top: 25px;
+}
+
+div#home-slide div div img {
+    width: 100%;
+}
+
+div#home-slide div div button {
+    margin: 50px 15px;
+}
+
+div#featured-bands div div.card {
+    margin: 15px auto;
+}
+
+div.row div.col-12 h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+div#about-bab div.col {
+    margin-top: 75px;
+}
+
+div#featured-images {
+    margin-bottom: 50px;
+}
+
+div#featured-images div a img {
+    margin: 0px auto;
+    display: block;
+}
